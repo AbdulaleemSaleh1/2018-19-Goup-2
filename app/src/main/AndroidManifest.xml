@@ -11,8 +11,6 @@
         android:theme="@style/AppTheme">
 
 
-
-
         <activity android:name=".MapPage" />
         <activity android:name=".TimeTablePage" />
         <activity android:name=".InfoPage" />
