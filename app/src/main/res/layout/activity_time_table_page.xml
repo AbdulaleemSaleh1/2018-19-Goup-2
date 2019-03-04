@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/MapBtnClick"
+        android:id="@+id/MapBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
@@ -32,6 +32,7 @@
         android:layout_marginEnd="307dp"
         android:layout_marginRight="307dp"
         android:layout_marginBottom="10dp"
+        android:onClick="MapBtnClick"
         android:background="@drawable/shapebtn"
         android:text="Map"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -39,7 +40,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btnLogout"
@@ -54,14 +55,14 @@
         android:background="@drawable/shapebtn"
         android:text="Log Out"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/InfoBtnClick"
+        app:layout_constraintEnd_toStartOf="@+id/InfoBtn"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/MapBtnClick"
+        app:layout_constraintStart_toEndOf="@+id/MapBtn"
         app:layout_constraintTop_toBottomOf="@+id/button"
         tools:text="Log out" />
 
     <Button
-        android:id="@+id/InfoBtnClick"
+        android:id="@+id/InfoBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="307dp"
@@ -69,6 +70,7 @@
         android:layout_marginTop="592dp"
         android:layout_marginBottom="10dp"
         android:background="@drawable/shapebtn"
+        android:onClick="InfoBtnClick"
         android:text="Info"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
