@@ -11,7 +11,6 @@ public class TimeTablePage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_time_table_page);
-
     }
     public void MapBtnClick(View v){
         Intent myIntent = new Intent(getBaseContext(),   MapPage.class);
