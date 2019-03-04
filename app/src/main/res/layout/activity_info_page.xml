@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#90CAF9"
     tools:context=".InfoPage">
 
 
@@ -15,7 +16,7 @@
         android:layout_marginEnd="3dp"
         android:layout_marginRight="3dp"
         android:layout_marginBottom="592dp"
-        android:text="Time Table"
+        android:text="Activity_Info"
         android:textColor="#000000"
         android:textSize="50sp"
         android:textStyle="bold"
@@ -132,10 +133,18 @@
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="528dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/shapebtn"
         android:text="map"
-        tools:layout_editor_absoluteX="307dp"
-        tools:layout_editor_absoluteY="667dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/HomePG"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 
 </android.support.constraint.ConstraintLayout>
