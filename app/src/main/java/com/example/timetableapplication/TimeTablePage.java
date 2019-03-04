@@ -1,7 +1,9 @@
 package com.example.timetableapplication;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 public class TimeTablePage extends AppCompatActivity {
 
@@ -10,5 +12,18 @@ public class TimeTablePage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_time_table_page);
 
+    }
+
+    public void MapPG(View v){
+        Intent myIntent = new Intent(getBaseContext(),   MapPage.class);
+        startActivity(myIntent);
+    }
+    public void HomePG(View v){
+        Intent myIntent = new Intent(getBaseContext(),   TimeTablePage.class);
+        startActivity(myIntent);
+    }
+    public void InfoPG(View v){
+        Intent myIntent = new Intent(getBaseContext(),  InfoPage.class);
+        startActivity(myIntent);
     }
 }
