@@ -12,16 +12,16 @@ public class InfoPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info_page);
     }
-    public void MapBtnClick(View v){
+    public void MapPG(View v){
         Intent myIntent = new Intent(getBaseContext(),   MapPage.class);
         startActivity(myIntent);
     }
-    public void HomeBtnClick(View v){
-        Intent myIntent = new Intent(getBaseContext(),   TimeTablePage.class);
+    public void HomePG(View v){
+        Intent myIntent = new Intent(getBaseContext(),   InfoPage.class);
         startActivity(myIntent);
     }
-    public void InfoBtnClick(View v){
-        Intent myIntent = new Intent(getBaseContext(),  InfoPage.class);
+    public void TimeTablePG(View v){
+        Intent myIntent = new Intent(getBaseContext(),  TimeTablePage.class);
         startActivity(myIntent);
     }
 }
