@@ -26,8 +26,4 @@ public class TimeTablePage extends AppCompatActivity {
         Intent myIntent = new Intent(getBaseContext(),  InfoPage.class);
         startActivity(myIntent);
     }
-    public void account_Btn(View v){
-        Intent myIntent = new Intent(getBaseContext(),   AccountPage.class);
-        startActivity(myIntent);
-    }
 }
