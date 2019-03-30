@@ -112,13 +112,14 @@
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="16dp"
         android:layout_marginStart="56dp"
         android:layout_marginLeft="56dp"
         android:layout_marginEnd="208dp"
         android:layout_marginRight="208dp"
-        android:text="Tel: +44(0)1895274000"
+        android:text="Tel: 01895274000"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
@@ -130,8 +131,9 @@
         android:layout_marginLeft="56dp"
         android:layout_marginEnd="205dp"
         android:layout_marginRight="205dp"
-        android:text="Fax: +44(0)1895232806"
+        android:text="Fax: 01895232806"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
@@ -159,7 +161,7 @@
         android:layout_marginLeft="56dp"
         android:layout_marginEnd="233dp"
         android:layout_marginRight="233dp"
-        android:text="Tel:+44(0)1895255786"
+        android:text="Tel: 01895255786"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -201,8 +203,9 @@
         android:layout_marginLeft="56dp"
         android:layout_marginEnd="211dp"
         android:layout_marginRight="211dp"
-        android:text="Tel:+44(0)1895268268"
+        android:text="Tel: 01895268268"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
