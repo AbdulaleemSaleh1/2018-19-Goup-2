@@ -7,6 +7,7 @@ import android.support.annotation.NonNull;
 import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -36,6 +37,7 @@ public class AccountPage extends AppCompatActivity {
         animationDrawable.start();
         firebaseAuth = FirebaseAuth.getInstance();
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
+        getUserDetailsAndAssign();
     }
     public void MapPG(View v){
         Intent myIntent = new Intent(getBaseContext(),   MapPage.class);
@@ -43,12 +45,14 @@ public class AccountPage extends AppCompatActivity {
     }
     public void HomePG(View v){
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
-        getUserDetailsAndNavigate();;
+        getUserDetailsAndNavigate();
     }
     public void InfoPG(View v){
         Intent myIntent = new Intent(getBaseContext(),  InfoPage.class);
         startActivity(myIntent);
     }
+
+
     private void getUserDetailsAndNavigate() {
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child("Users");
 
@@ -67,6 +71,35 @@ public class AccountPage extends AppCompatActivity {
 
             }
         });
+
+
+    }
+    private void getUserDetailsAndAssign() {
+        DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child("Users");
+
+        reference.child(firebaseUser.getUid()).addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                User currentUser = dataSnapshot.getValue(User.class);
+                TextView ID_Data = findViewById(R.id.ID_Data);
+                String UserID =  currentUser.getStudentID();
+                ID_Data.setText(UserID);
+                TextView NameData = findViewById(R.id.Name_Data);
+                String Name =  currentUser.getName();
+                NameData.setText(Name);
+                TextView Course_Data = findViewById(R.id.Course_Data);
+                String Course =  currentUser.getCourse();
+                Course_Data.setText(Course);
+
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+
 
     }
 }

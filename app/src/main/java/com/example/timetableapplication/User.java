@@ -24,6 +24,14 @@ public class User implements Serializable {
         this.name = name;
     }
 
+    public String getCourse(){
+        return course;
+    }
+
+    public void setCourse(String course){
+        this.course = course;
+    }
+
     public String getUniqueID() {
         return uniqueID;
     }
