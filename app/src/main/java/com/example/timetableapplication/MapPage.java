@@ -13,15 +13,19 @@ public class MapPage extends AppCompatActivity {
         setContentView(R.layout.activity_map_page);
     }
     public void HomePG(View v){
-        Intent myIntent = new Intent(getBaseContext(),   MapPage.class);
+        Intent myIntent = new Intent(getBaseContext(),   TimeTablePage.class);
         startActivity(myIntent);
     }
     public void InfoPG(View v){
         Intent myIntent = new Intent(getBaseContext(),   InfoPage.class);
         startActivity(myIntent);
     }
-    public void TimeTablePG(View v){
-        Intent myIntent = new Intent(getBaseContext(),  TimeTablePage.class);
+
+
+
+    public void account_Btn(View v) {
+        Intent myIntent = new Intent(getBaseContext(), AccountPage.class);
         startActivity(myIntent);
+//    }
     }
 }
