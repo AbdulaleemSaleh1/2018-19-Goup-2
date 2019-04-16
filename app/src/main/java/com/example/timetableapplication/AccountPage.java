@@ -9,7 +9,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
-import com.google.android.gms.common.internal.AccountType;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -51,10 +50,6 @@ public class AccountPage extends AppCompatActivity {
     public void InfoPG(View v){
         Intent myIntent = new Intent(getBaseContext(),  InfoPage.class);
         startActivity(myIntent);
-    }
-    public void LogOut(){
-        firebaseAuth.signOut();
-        Intent intent = new Intent(AccountPage.this, MainActivity.class);
     }
 
 
