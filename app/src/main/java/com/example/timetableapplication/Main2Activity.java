@@ -23,7 +23,7 @@ public class Main2Activity extends AppCompatActivity {
                 case R.id.navigation_dashboard:
                     mTextMessage.setText(R.string.title_dashboard);
                     return true;
-                case .id.navigation_notifications:
+                case R.id.navigation_notifications:
                     mTextMessage.setText(R.string.title_notifications);
                     return true;
             }
