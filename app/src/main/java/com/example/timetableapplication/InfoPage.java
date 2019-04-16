@@ -17,11 +17,12 @@ public class InfoPage extends AppCompatActivity {
         startActivity(myIntent);
     }
     public void HomePG(View v){
-        Intent myIntent = new Intent(getBaseContext(),   InfoPage.class);
+        Intent myIntent = new Intent(getBaseContext(),   TimeTablePage.class);
         startActivity(myIntent);
     }
-    public void TimeTablePG(View v){
-        Intent myIntent = new Intent(getBaseContext(),  TimeTablePage.class);
+    public void account_Btn(View v) {
+        Intent myIntent = new Intent(getBaseContext(), AccountPage.class);
         startActivity(myIntent);
-    }
+      }
+
 }
