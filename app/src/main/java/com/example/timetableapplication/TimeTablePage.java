@@ -49,10 +49,6 @@ public class TimeTablePage extends AppCompatActivity {
                     Lecture singleLecture = child.getValue(Lecture.class);
                     listOfLectures.add(singleLecture);
 
-
-
-
-
                 }
                 for(int i = 0; i < listOfLectures.size(); i++) {
                     Log.v("E_VALUE",listOfLectures.get(i).getModule());
@@ -74,7 +70,7 @@ public class TimeTablePage extends AppCompatActivity {
     }
     public void HomePG(View v){
         Intent myIntent = new Intent(getBaseContext(),   TimeTablePage.class);
-        startActivity(myIntent);
+       startActivity(myIntent);
     }
     public void InfoPG(View v){
         Intent myIntent = new Intent(getBaseContext(),  InfoPage.class);

@@ -21,11 +21,8 @@ public class MapPage extends AppCompatActivity {
         startActivity(myIntent);
     }
 
-
-
     public void account_Btn(View v) {
         Intent myIntent = new Intent(getBaseContext(), AccountPage.class);
         startActivity(myIntent);
-//    }
     }
 }
