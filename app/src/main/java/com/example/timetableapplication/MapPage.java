@@ -20,19 +20,15 @@ public class MapPage extends AppCompatActivity {
         Intent myIntent = new Intent(getBaseContext(),   InfoPage.class);
         startActivity(myIntent);
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
     public void account_Btn(View v) {
         Intent myIntent = new Intent(getBaseContext(), AccountPage.class);
-=======
+        startActivity(myIntent);
+    }
+
     public void TimeTablePG(View v){
         Intent myIntent = new Intent(getBaseContext(),  TimeTablePage.class);
->>>>>>> 37f7dc968155e366ea1c4e7e83e2c962166fb6d9
-=======
-    public void TimeTablePG(View v){
-        Intent myIntent = new Intent(getBaseContext(),  TimeTablePage.class);
->>>>>>> parent of 1533920... Finalised template to homePG and MapPG
         startActivity(myIntent);
     }
 }
