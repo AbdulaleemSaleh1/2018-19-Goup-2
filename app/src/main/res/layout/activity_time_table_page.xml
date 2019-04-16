@@ -10,19 +10,32 @@
 
     <TextView
         android:id="@+id/textView"
+<<<<<<< HEAD
         android:layout_width="312dp"
         android:layout_height="69dp"
+=======
+        android:layout_width="245dp"
+        android:layout_height="74dp"
+>>>>>>> parent of 1533920... Finalised template to homePG and MapPG
         android:layout_marginTop="46dp"
         android:layout_marginEnd="3dp"
         android:layout_marginRight="3dp"
         android:layout_marginBottom="592dp"
+<<<<<<< HEAD
         android:text="Time Table"
+=======
+        android:text="Timetable"
+>>>>>>> parent of 1533920... Finalised template to homePG and MapPG
         android:textColor="#000000"
-        android:textSize="50sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD
         app:layout_constraintHorizontal_bias="0.864"
+=======
+        app:layout_constraintHorizontal_bias="0.036"
+>>>>>>> parent of 1533920... Finalised template to homePG and MapPG
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.875" />
@@ -49,10 +62,15 @@
         android:layout_width="wrap_content"
         android:layout_height="45dp"
         android:layout_marginStart="70dp"
+<<<<<<< HEAD
         android:layout_marginLeft="70dp"
         android:layout_marginTop="479dp"
         android:layout_marginEnd="64dp"
         android:layout_marginRight="64dp"
+=======
+        android:layout_marginTop="479dp"
+        android:layout_marginEnd="64dp"
+>>>>>>> parent of 1533920... Finalised template to homePG and MapPG
         android:layout_marginBottom="68dp"
         android:background="@drawable/shapebtn"
         android:onClick="HomePG"
@@ -61,7 +79,11 @@
         app:layout_constraintEnd_toStartOf="@+id/MapPG"
         app:layout_constraintStart_toEndOf="@+id/InfoPG"
         app:layout_constraintTop_toBottomOf="@+id/textView"
+<<<<<<< HEAD
         app:layout_constraintVertical_bias="0.0" />
+=======
+        app:layout_constraintVertical_bias="1.0" />
+>>>>>>> parent of 1533920... Finalised template to homePG and MapPG
 
     <Button
         android:id="@+id/MapPG"
@@ -85,6 +107,7 @@
         android:id="@+id/accountBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginStart="162dp"
         android:layout_marginLeft="162dp"
         android:layout_marginTop="377dp"
@@ -97,6 +120,25 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+=======
+        android:background="@drawable/shapebtn"
+        android:onClick="account_Btn"
+        android:text="Account"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="424dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="38dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accountBtn"
+        app:layout_constraintVertical_bias="0.995" />
+>>>>>>> parent of 1533920... Finalised template to homePG and MapPG
 
 
 </android.support.constraint.ConstraintLayout>
