@@ -4,11 +4,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.FragmentActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -34,20 +32,11 @@ public class MainActivity extends FragmentActivity {
     private FirebaseAuth firebaseAuth;
     private FirebaseUser firebaseUser;
     private DatabaseReference databaseReference;
-    private static final String TAG = "MainActivity";
 
     @Override
-        protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        Log.d(TAG, "OnCreate: started.");
-        ImageView Firstimage = (ImageView) findViewById(R.id.Firstimage);
-
-        int imageResource = getResources().getIdentifier("@drawable/brunellogo", null, this.getPackageName());
-        Firstimage.setImageResource(imageResource);
-
-
 
         FirebaseApp.initializeApp(this);
         email = (EditText)findViewById(R.id.UsernameText);

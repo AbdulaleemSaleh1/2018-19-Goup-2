@@ -24,10 +24,5 @@ public class InfoPage extends AppCompatActivity {
         Intent myIntent = new Intent(getBaseContext(), AccountPage.class);
         startActivity(myIntent);
       }
-    public void InfoPG(View v){
-        Intent myIntent = new Intent(getBaseContext(),   InfoPage.class);
-        startActivity(myIntent);
-    }
-
 
 }
