@@ -65,14 +65,12 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/Firstimage"
         android:layout_width="313dp"
         android:layout_height="261dp"
         android:layout_marginStart="49dp"
-        android:layout_marginLeft="49dp"
         android:layout_marginTop="33dp"
         android:layout_marginEnd="49dp"
-        android:layout_marginRight="49dp"
         android:layout_marginBottom="40dp"
         app:layout_constraintBottom_toTopOf="@+id/UsernameText"
         app:layout_constraintEnd_toEndOf="parent"
