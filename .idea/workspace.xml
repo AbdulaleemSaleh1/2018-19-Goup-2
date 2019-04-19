@@ -140,20 +140,18 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of fccd91f... changes to revert
           <entry key="java" value="5" />
           <entry key="xml" value="7" />
 =======
 <<<<<<< HEAD
-=======
->>>>>>> parent of 2dd261b... added the image from the login screen to emulator
           <entry key="java" value="2" />
           <entry key="xml" value="2" />
 =======
           <entry key="java" value="1" />
 >>>>>>> 8b5a41cc6e2afdcd8c01f059dcde316672a2fa9d
-<<<<<<< HEAD
->>>>>>> parent of 2dd261b... added the image from the login screen to emulator
-=======
 >>>>>>> parent of 2dd261b... added the image from the login screen to emulator
 =======
           <entry key="java" value="2" />
@@ -166,6 +164,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of fccd91f... changes to revert
           <entry key="JAVA" value="5" />
           <entry key="XML" value="7" />
         </counts>
@@ -183,8 +184,6 @@
 >>>>>>> 37f7dc968155e366ea1c4e7e83e2c962166fb6d9
 =======
 <<<<<<< HEAD
-=======
->>>>>>> parent of 2dd261b... added the image from the login screen to emulator
           <entry key="JAVA" value="2" />
           <entry key="XML" value="2" />
 =======
@@ -215,7 +214,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/timetableapplication/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="258">
@@ -225,8 +223,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-=======
->>>>>>> parent of 2dd261b... added the image from the login screen to emulator
 <<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_info_page.xml">
           <provider editor-type-id="text-editor">
@@ -277,54 +273,6 @@
                 <element signature="e#767#768#0" expanded="true" />
                 <element signature="e#813#814#0" expanded="true" />
               </folding>
-<<<<<<< HEAD
-=======
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/timetableapplication/MapPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/timetableapplication/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-              <folding>
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-                <element signature="e#214#215#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#547#548#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-              </folding>
->>>>>>> 8b5a41cc6e2afdcd8c01f059dcde316672a2fa9d
->>>>>>> parent of 2dd261b... added the image from the login screen to emulator
             </state>
           </provider>
         </entry>
@@ -380,9 +328,6 @@
 =======
       <file pinned="false" current-in-tab="true">
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 2dd261b... added the image from the login screen to emulator
-=======
 >>>>>>> parent of 2dd261b... added the image from the login screen to emulator
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_account_page.xml">
           <provider editor-type-id="text-editor">
@@ -416,7 +361,6 @@
       </file>
 <<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
 <<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/timetableapplication/InfoPage.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -466,8 +410,6 @@
       <file pinned="false" current-in-tab="false">
 =======
 <<<<<<< HEAD
-=======
->>>>>>> parent of 2dd261b... added the image from the login screen to emulator
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml">
           <provider selected="true" editor-type-id="android-designer2" />
           <provider editor-type-id="text-editor" />
@@ -519,19 +461,12 @@
               <caret line="9" selection-start-line="9" selection-end-line="9" />
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
->>>>>>> parent of 2dd261b... added the image from the login screen to emulator
-=======
 >>>>>>> parent of 2dd261b... added the image from the login screen to emulator
         <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_anime.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="13" selection-start-line="13" selection-end-line="13" />
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8b5a41cc6e2afdcd8c01f059dcde316672a2fa9d
->>>>>>> parent of 2dd261b... added the image from the login screen to emulator
 =======
 >>>>>>> 8b5a41cc6e2afdcd8c01f059dcde316672a2fa9d
 >>>>>>> parent of 2dd261b... added the image from the login screen to emulator
@@ -636,14 +571,10 @@
 =======
       <pane id="Scope" />
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 2dd261b... added the image from the login screen to emulator
-=======
 >>>>>>> parent of 2dd261b... added the image from the login screen to emulator
       <pane id="ProjectPane" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-<<<<<<< HEAD
 <<<<<<< HEAD
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
@@ -652,8 +583,6 @@
               <item name="TimetableApplication" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
 =======
-=======
->>>>>>> parent of 2dd261b... added the image from the login screen to emulator
 =======
 >>>>>>> 3fe3624f03cdde67847c13b81a2f168c3c882010
 =======
@@ -703,9 +632,6 @@
 =======
               <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
 >>>>>>> 8b5a41cc6e2afdcd8c01f059dcde316672a2fa9d
-<<<<<<< HEAD
->>>>>>> parent of 2dd261b... added the image from the login screen to emulator
-=======
 >>>>>>> parent of 2dd261b... added the image from the login screen to emulator
             </path>
             <path>
@@ -815,9 +741,6 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="sync.plugin.last.upgrade.timestamp" value="1552395764146" />
 =======
-<<<<<<< HEAD
->>>>>>> parent of 2dd261b... added the image from the login screen to emulator
-=======
 >>>>>>> parent of 2dd261b... added the image from the login screen to emulator
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="c7bdd679" />
@@ -839,10 +762,6 @@
       <recent name="C:\Users\aleem\OneDrive\Documents\GitHub\TimetableApplication\app\src\main\res\drawable" />
     </key>
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8b5a41cc6e2afdcd8c01f059dcde316672a2fa9d
->>>>>>> parent of 2dd261b... added the image from the login screen to emulator
 =======
 >>>>>>> 8b5a41cc6e2afdcd8c01f059dcde316672a2fa9d
 >>>>>>> parent of 2dd261b... added the image from the login screen to emulator
@@ -869,9 +788,6 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 2dd261b... added the image from the login screen to emulator
 =======
 >>>>>>> parent of 2dd261b... added the image from the login screen to emulator
     <configuration name="com.example.timetableapplication in app" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
@@ -890,10 +806,6 @@
       </method>
     </configuration>
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8b5a41cc6e2afdcd8c01f059dcde316672a2fa9d
->>>>>>> parent of 2dd261b... added the image from the login screen to emulator
 =======
 >>>>>>> 8b5a41cc6e2afdcd8c01f059dcde316672a2fa9d
 >>>>>>> parent of 2dd261b... added the image from the login screen to emulator
@@ -1062,9 +974,6 @@
 <<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2322239" />
 >>>>>>> 8b5a41cc6e2afdcd8c01f059dcde316672a2fa9d
-<<<<<<< HEAD
->>>>>>> parent of 2dd261b... added the image from the login screen to emulator
-=======
 >>>>>>> parent of 2dd261b... added the image from the login screen to emulator
 =======
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
@@ -1098,16 +1007,22 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of fccd91f... changes to revert
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Logcat" order="1" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 2dd261b... added the image from the login screen to emulator
 =======
 >>>>>>> parent of 1533920... Finalised template to homePG and MapPG
+=======
+>>>>>>> parent of fccd91f... changes to revert
       <window_info anchor="bottom" id="Run" />
       <window_info anchor="bottom" id="Debug" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.3295082" />
@@ -1124,19 +1039,12 @@
       <window_info anchor="bottom" id="Logcat" order="1" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
-<<<<<<< HEAD
->>>>>>> parent of 2dd261b... added the image from the login screen to emulator
-=======
 >>>>>>> parent of 2dd261b... added the image from the login screen to emulator
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="6" visible="true" weight="0.352459" />
       <window_info anchor="right" id="Preview" />
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8b5a41cc6e2afdcd8c01f059dcde316672a2fa9d
->>>>>>> parent of 2dd261b... added the image from the login screen to emulator
 =======
 >>>>>>> 8b5a41cc6e2afdcd8c01f059dcde316672a2fa9d
 >>>>>>> parent of 2dd261b... added the image from the login screen to emulator
@@ -1265,9 +1173,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
->>>>>>> parent of 2dd261b... added the image from the login screen to emulator
-=======
 >>>>>>> parent of 2dd261b... added the image from the login screen to emulator
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/first_layer.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1275,7 +1180,6 @@
           <caret lean-forward="true" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
-<<<<<<< HEAD
 <<<<<<< HEAD
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
@@ -1289,8 +1193,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/timetableapplication/User.java">
 <<<<<<< HEAD
 =======
-=======
->>>>>>> parent of 2dd261b... added the image from the login screen to emulator
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1419,9 +1321,6 @@
         </state>
       </provider>
 >>>>>>> 8b5a41cc6e2afdcd8c01f059dcde316672a2fa9d
-<<<<<<< HEAD
->>>>>>> parent of 2dd261b... added the image from the login screen to emulator
-=======
 >>>>>>> parent of 2dd261b... added the image from the login screen to emulator
       <provider editor-type-id="android-designer2" />
     </entry>
