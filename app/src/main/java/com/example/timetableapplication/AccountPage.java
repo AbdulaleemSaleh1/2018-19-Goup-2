@@ -47,11 +47,14 @@ public class AccountPage extends AppCompatActivity {
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
         getUserDetailsAndNavigate();
     }
-    public void InfoPG(View v){
-        Intent myIntent = new Intent(getBaseContext(),  InfoPage.class);
+    public void InfoPG(View v) {
+        Intent myIntent = new Intent(getBaseContext(), InfoPage.class);
         startActivity(myIntent);
     }
-
+    public void LogOut(){
+        firebaseAuth.signOut();
+        Intent intent = new Intent(AccountPage.this, MainActivity.class);
+    }
 
     private void getUserDetailsAndNavigate() {
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child("Users");
