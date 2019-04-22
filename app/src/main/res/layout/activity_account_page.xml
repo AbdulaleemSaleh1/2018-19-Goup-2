@@ -13,10 +13,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="39dp"
-        android:layout_marginLeft="39dp"
         android:layout_marginTop="336dp"
         android:layout_marginEnd="34dp"
-        android:layout_marginRight="34dp"
         android:layout_marginBottom="43dp"
         android:background="@drawable/shapebtn"
         android:onClick="InfoPG"
@@ -24,7 +22,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/homePG2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/course_Text" />
+        app:layout_constraintTop_toBottomOf="@+id/course_Text"
+        app:layout_constraintVertical_bias="0.722" />
 
     <Button
         android:id="@+id/homePG2"
@@ -32,7 +31,6 @@
         android:layout_height="45dp"
         android:layout_marginTop="643dp"
         android:layout_marginEnd="34dp"
-        android:layout_marginRight="34dp"
         android:layout_marginBottom="43dp"
         android:background="@drawable/shapebtn"
         android:onClick="HomePG"
@@ -40,14 +38,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/mapPG2"
         app:layout_constraintStart_toEndOf="@+id/infoPG"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.823" />
 
     <Button
         android:id="@+id/mapPG2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
-        android:layout_marginLeft="34dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="102dp"
         android:layout_marginBottom="43dp"
         android:background="@drawable/shapebtn"
@@ -55,7 +53,8 @@
         android:text="Map"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/homePG2"
-        app:layout_constraintTop_toBottomOf="@+id/logout_Btn" />
+        app:layout_constraintTop_toBottomOf="@+id/logout_Btn"
+        app:layout_constraintVertical_bias="0.691" />
 
     <TextView
         android:id="@+id/Module2_Data"
@@ -139,8 +138,8 @@
 
     <TextView
         android:id="@+id/Name_Data"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginStart="33dp"
         android:layout_marginLeft="33dp"
         android:layout_marginTop="194dp"
@@ -157,12 +156,13 @@
         android:layout_width="wrap_content"
         android:layout_height="20dp"
         android:layout_marginStart="39dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="306dp"
         android:text="Modules"
         android:textSize="17sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.678"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Course_Text" />
 
@@ -171,10 +171,8 @@
         android:layout_width="wrap_content"
         android:layout_height="19dp"
         android:layout_marginStart="48dp"
-        android:layout_marginLeft="48dp"
-        android:layout_marginTop="148dp"
+        android:layout_marginTop="108dp"
         android:layout_marginEnd="307dp"
-        android:layout_marginRight="307dp"
         android:text="User ID"
         android:textSize="17sp"
         android:textStyle="bold"
@@ -185,17 +183,17 @@
 
     <TextView
         android:id="@+id/Name_Text"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="23dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="306dp"
-        android:layout_marginRight="306dp"
+        android:gravity="center"
         android:text="Name"
         android:textSize="17sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ID_Text" />
 
@@ -203,8 +201,7 @@
         android:id="@+id/Course_Text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="51dp"
-        android:layout_marginLeft="51dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:text="Course"
         android:textSize="17sp"
@@ -230,13 +227,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="281dp"
-        android:layout_marginTop="489dp"
+        android:layout_marginTop="420dp"
         android:layout_marginEnd="42dp"
-        android:layout_marginBottom="194dp"
         android:onClick="LogOut"
         android:text="Log out"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
