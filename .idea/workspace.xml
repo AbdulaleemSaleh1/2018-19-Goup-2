@@ -12,9 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6464746-3615-4fb9-993f-75dd8248c339" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_map_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_map_page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_time_table_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_time_table_page.xml" afterDir="false" />
+>>>>>>> 83c0ef4bd6110d48fbbb28bb33c7bfe8eeaf007d
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,20 +64,37 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/timetableapplication/AccountPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="525">
               <caret line="51" column="10" lean-forward="true" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_map_page.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="3009">
+              <caret line="179" selection-start-line="179" selection-end-line="179" />
+>>>>>>> 83c0ef4bd6110d48fbbb28bb33c7bfe8eeaf007d
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/timetableapplication/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
               <caret line="45" column="51" selection-start-line="42" selection-start-column="7" selection-end-line="45" selection-end-column="51" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_account_page.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="1054">
+              <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+>>>>>>> 83c0ef4bd6110d48fbbb28bb33c7bfe8eeaf007d
             </state>
           </provider>
         </entry>
@@ -96,6 +119,7 @@
           <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_info_page.xml">
           <provider editor-type-id="text-editor">
@@ -103,6 +127,10 @@
               <caret line="398" column="46" selection-start-line="398" selection-start-column="46" selection-end-line="398" selection-end-column="46" />
             </state>
           </provider>
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_time_table_page.xml">
+>>>>>>> 83c0ef4bd6110d48fbbb28bb33c7bfe8eeaf007d
           <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
@@ -137,12 +165,18 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/timetableapplication/GoogleMapsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/timetableapplication/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/timetableapplication/MapPage.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_map_page.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_account_page.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_info_page.xml" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_time_table_page.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_account_page.xml" />
         <option value="$PROJECT_DIR$/local.properties" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+=======
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_map_page.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_time_table_page.xml" />
+>>>>>>> 83c0ef4bd6110d48fbbb28bb33c7bfe8eeaf007d
       </list>
     </option>
   </component>
@@ -393,6 +427,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_map_page.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -410,20 +445,44 @@
       <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/local.properties">
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/timetableapplication/AccountPage.java">
+>>>>>>> 83c0ef4bd6110d48fbbb28bb33c7bfe8eeaf007d
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_time_table_page.xml">
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_google_maps.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+>>>>>>> 83c0ef4bd6110d48fbbb28bb33c7bfe8eeaf007d
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="android-designer2" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="85" column="36" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_info_page.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_map_page.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="3009">
+          <caret line="179" selection-start-line="179" selection-end-line="179" />
+>>>>>>> 83c0ef4bd6110d48fbbb28bb33c7bfe8eeaf007d
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2" />
@@ -452,6 +511,18 @@
           <caret line="51" column="10" lean-forward="true" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="69" column="35" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_time_table_page.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
