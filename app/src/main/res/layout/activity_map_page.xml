@@ -146,7 +146,7 @@
         app:layout_constraintEnd_toStartOf="@+id/MapIcon"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@android:drawable/sym_def_app_icon" />
+        app:srcCompat="@drawable/brunellogo" />
 
     <Button
         android:id="@+id/GoogleMap"
