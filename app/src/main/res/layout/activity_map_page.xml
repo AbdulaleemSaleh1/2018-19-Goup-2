@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E8BF360C"
+    android:background="#DD105C99"
     tools:context=".MapPage">
 
     <TextView
@@ -176,7 +176,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/brunelcampus" />
-
 
 
 </android.support.constraint.ConstraintLayout>
