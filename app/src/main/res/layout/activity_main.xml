@@ -83,7 +83,7 @@
         app:srcCompat="@drawable/brunellogo" />
 
     <EditText
-        android:id="@+id/Forgot pass"
+        android:id="@+id/Forgotpass"
         android:layout_width="157dp"
         android:layout_height="43dp"
         android:ems="10"
