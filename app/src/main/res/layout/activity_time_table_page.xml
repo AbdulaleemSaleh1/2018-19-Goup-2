@@ -119,7 +119,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/AccountIcon"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@android:drawable/ic_menu_mapmode" />
+        app:srcCompat="@android:drawable/ic_menu_mapmode"
+        tools:srcCompat="@drawable/brunelcampus" />
 
     <ImageView
         android:id="@+id/HomeIcon"
