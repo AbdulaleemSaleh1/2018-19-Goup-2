@@ -39,6 +39,12 @@ public class AccountPage extends AppCompatActivity {
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
         getUserDetailsAndAssign();
     }
+
+    public void account_Btn(View v){
+        Intent myIntent = new Intent(getBaseContext(),   AccountPage.class);
+        startActivity(myIntent);
+    }
+
     public void MapPG(View v){
         Intent myIntent = new Intent(getBaseContext(),   MapPage.class);
         startActivity(myIntent);

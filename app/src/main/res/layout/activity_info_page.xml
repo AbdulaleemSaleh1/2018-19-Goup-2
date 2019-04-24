@@ -195,21 +195,21 @@ tools:context=".InfoPage">
     app:layout_constraintTop_toBottomOf="@+id/textView24" />
 
 
-<TextView
-    android:id="@+id/textView28"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginStart="26dp"
-    android:layout_marginLeft="26dp"
-    android:layout_marginEnd="261dp"
-    android:layout_marginRight="261dp"
-    android:text="Middlesex UB8 3PH"
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="261dp"
+        android:layout_marginBottom="1dp"
 
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="1.0"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/textView25"
-    app:layout_constraintVertical_bias="0.0" />
+        android:text="Middlesex UB8 3PH"
+        app:layout_constraintBottom_toTopOf="@+id/textView30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25"
+        app:layout_constraintVertical_bias="0.0" />
 
 <TextView
     android:id="@+id/textView29"
@@ -226,174 +226,147 @@ tools:context=".InfoPage">
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toBottomOf="@+id/textView20" />
 
-<TextView
-    android:id="@+id/textView30"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginStart="26dp"
-    android:layout_marginLeft="26dp"
-    android:layout_marginEnd="67dp"
-    android:layout_marginRight="67dp"
-    android:layout_marginBottom="8dp"
-    android:text="Tel: +44 (0)1895 274000  Fax: +44 (0)1895 232806"
-    app:layout_constraintBottom_toTopOf="@+id/button"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/textView28" />
-
-<Button
-    android:id="@+id/button"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginStart="8dp"
-    android:layout_marginLeft="8dp"
-    android:layout_marginTop="24dp"
-    android:layout_marginEnd="296dp"
-    android:layout_marginRight="296dp"
-    android:layout_marginBottom="64dp"
-    android:onClick="TimeTablePG"
-    android:text="Timetable"
-    android:visibility="visible"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.0"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/textView30"
-    app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/button2"
+    <TextView
+        android:id="@+id/textView30"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="31dp"
-        android:layout_marginBottom="64dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="9dp"
+        android:text="Tel: +44 (0)1895 274000  Fax: +44 (0)1895 232806"
+        app:layout_constraintBottom_toTopOf="@+id/AccountIcon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" /><![CDATA[
+
+    ="85dp"
+        android:layout_height="66dp" />
+
+    ]]>
+
+    <Button
+        android:id="@+id/InfoPG"
+        android:layout_width="69dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/shapebtn"
+        android:onClick="InfoPG"
+        android:text="Info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/HomePG"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/InfoIcon"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/HomePG"
+        android:layout_width="69dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="239dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/shapebtn"
         android:onClick="HomePG"
         android:text="Home"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
-        app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintStart_toEndOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/textView30"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/InfoPG"
+        app:layout_constraintTop_toBottomOf="@+id/HomeIcon"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="29dp"
-        android:layout_marginEnd="41dp"
+        android:id="@+id/MapPG"
+        android:layout_width="69dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/shapebtn"
         android:onClick="MapPG"
         android:text="Map"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/textView30"
-        app:layout_constraintVertical_bias="0.0" /><![CDATA[
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        android:id="@+id/TimeTablePG"
-=======
-        android:id="@+id/InfoPG"
->>>>>>> parent of dbd1500... worked on info page
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="3dp"
-        android:layout_marginLeft="3dp"
-        android:layout_marginTop="553dp"
-        android:layout_marginEnd="320dp"
-        android:layout_marginRight="320dp"
-        android:layout_marginBottom="15dp"
-        android:background="@drawable/shapebtn"
-
-        android:onClick="TimeTablePG"
-=======
->>>>>>> parent of dbd1500... worked on info page
-        android:text="Timetable"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/accountBtn"
+        app:layout_constraintTop_toBottomOf="@+id/MapIcon" />
 
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="1.0" />
-=======
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
->>>>>>> parent of dbd1500... worked on info page
-
-
-        android:id="@+id/HomePG"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="551dp"
-
-        android:layout_marginEnd="64dp"
-        android:layout_marginRight="64dp"
-=======
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
->>>>>>> parent of dbd1500... worked on info page
-        android:layout_marginBottom="15dp"
+    <Button
+        android:id="@+id/accountBtn"
+        android:layout_width="69dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="239dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="28dp"
         android:background="@drawable/shapebtn"
-        android:text="Home"
+        android:onClick="account_Btn"
+        android:text="Account"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/MapPG"
-        app:layout_constraintStart_toEndOf="@+id/InfoPG"
-
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AccountIcon"
         app:layout_constraintVertical_bias="1.0" />
-=======
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
->>>>>>> parent of dbd1500... worked on info page
 
-
-        android:id="@+id/MapPG"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="224dp"
-        android:layout_marginLeft="224dp"
-        android:layout_marginTop="554dp"
-
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-=======
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
->>>>>>> parent of dbd1500... worked on info page
+    <ImageView
+        android:id="@+id/InfoIcon"
+        android:layout_width="69dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="18dp"
         android:layout_marginBottom="15dp"
-        android:background="@drawable/shapebtn"
-        android:text="Map"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/InfoPG"
+        app:layout_constraintEnd_toStartOf="@+id/HomeIcon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30"
+        app:srcCompat="@android:drawable/ic_menu_info_details" />
+
+    <ImageView
+        android:id="@+id/MapIcon"
+        android:layout_width="69dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/MapPG"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/InfoPG"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintStart_toEndOf="@+id/AccountIcon"
+        app:layout_constraintTop_toBottomOf="@+id/textView30"
+        app:srcCompat="@android:drawable/ic_menu_mapmode"
+        tools:srcCompat="@drawable/brunelcampus" />
 
+    <ImageView
+        android:id="@+id/HomeIcon"
+        android:layout_width="69dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="239dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/HomePG"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/InfoIcon"
+        app:layout_constraintTop_toBottomOf="@+id/textView30"
+        app:srcCompat="@drawable/ic_home_black_24dp" />
 
+    <ImageView
+        android:id="@+id/AccountIcon"
+        android:layout_width="69dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/accountBtn"
+        app:layout_constraintEnd_toStartOf="@+id/MapIcon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30"
+        app:srcCompat="@drawable/brunellogo" />
 
-
-
-
-
-
-
-
-
-]]>
 </android.support.constraint.ConstraintLayout>
