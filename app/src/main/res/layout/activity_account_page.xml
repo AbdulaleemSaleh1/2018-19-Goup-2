@@ -64,7 +64,7 @@
         android:layout_width="69dp"
         android:layout_height="40dp"
         android:layout_marginStart="239dp"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="23dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="22dp"
         android:background="@drawable/shapebtn"
@@ -109,9 +109,9 @@
         android:layout_width="69dp"
         android:layout_height="40dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="81dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="239dp"
-        android:layout_marginBottom="22dp"
+        android:layout_marginBottom="18dp"
         app:layout_constraintBottom_toTopOf="@+id/HomePG"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/InfoIcon"
@@ -123,9 +123,9 @@
         android:layout_width="69dp"
         android:layout_height="40dp"
         android:layout_marginStart="236dp"
-        android:layout_marginTop="81dp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="22dp"
+        android:layout_marginBottom="23dp"
         app:layout_constraintBottom_toTopOf="@+id/accountBtn"
         app:layout_constraintEnd_toStartOf="@+id/MapIcon"
         app:layout_constraintStart_toStartOf="parent"
@@ -143,14 +143,14 @@
         android:id="@+id/Course_Data"
         android:layout_width="165dp"
         android:layout_height="24dp"
-        app:layout_constraintStart_toStartOf="@+id/Name_Data"
+        app:layout_constraintStart_toStartOf="@+id/NameInfo"
         app:layout_constraintTop_toTopOf="@+id/Course_Text" />
 
     <TextView
-        android:id="@+id/Name_Data"
+        android:id="@+id/NameInfo"
         android:layout_width="142dp"
         android:layout_height="21dp"
-        app:layout_constraintStart_toStartOf="@+id/ID_Data"
+        app:layout_constraintStart_toStartOf="@+id/IDInfo"
         app:layout_constraintTop_toTopOf="@+id/Name_Text" />
 
     <TextView
@@ -206,10 +206,14 @@
         app:layout_constraintTop_toBottomOf="@+id/Name_Text" />
 
     <TextView
-        android:id="@+id/ID_Data"
+        android:id="@+id/IDInfo"
         android:layout_width="141dp"
         android:layout_height="24dp"
         android:layout_marginStart="8dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="72dp"
+        app:layout_constraintBottom_toTopOf="@+id/NameInfo"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/ID_Text"
         app:layout_constraintTop_toTopOf="@+id/ID_Text" />
 
@@ -223,7 +227,7 @@
         android:layout_marginBottom="8dp"
         android:onClick="LogOut"
         android:text="Log out"
-        app:layout_constraintBottom_toTopOf="@+id/homePG2"
+        app:layout_constraintBottom_toTopOf="@+id/HomePG"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Module_Data" />

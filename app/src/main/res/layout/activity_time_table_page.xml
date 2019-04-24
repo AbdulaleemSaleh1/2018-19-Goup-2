@@ -150,6 +150,188 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/brunellogo" />
 
+    <TextView
+        android:id="@+id/NameID"
+        android:layout_width="86dp"
+        android:layout_height="38dp"
+        android:text="Name:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <TextView
+        android:id="@+id/StudentIdentification"
+        android:layout_width="101dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="496dp"
+        android:text="Student ID:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/AccountIcon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toEndOf="@+id/NameID" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="395dp"
+        android:layout_height="470dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/InfoIcon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NameID">
+
+        <TableRow
+            android:id="@+id/Days"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <TextView
+                android:id="@+id/TimeDayID"
+                android:layout_width="74dp"
+                android:layout_height="match_parent"
+                android:text="Time/Day"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/MonID"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:text="Mon"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TuesID"
+                android:layout_width="67dp"
+                android:layout_height="match_parent"
+                android:text="Tues"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/WedID"
+                android:layout_width="64dp"
+                android:layout_height="match_parent"
+                android:text="Wed"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ThursID"
+                android:layout_width="69dp"
+                android:layout_height="match_parent"
+                android:text="Thurs"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/FriID"
+                android:layout_width="61dp"
+                android:layout_height="match_parent"
+                android:text="Fri"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/NineAM"
+                android:layout_width="67dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="time"
+                tools:text="9:00" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/TenAM"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="time"
+                tools:text="10:00" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/ElevenAM"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="time"
+                tools:text="11:00" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="time"
+                tools:text="12:00" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/NameInfo"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="622dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/StudentIdentification"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/NameID"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/IDInfo"
+        android:layout_width="78dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="19dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/StudentIdentification"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
+
 
 </android.support.constraint.ConstraintLayout>
 

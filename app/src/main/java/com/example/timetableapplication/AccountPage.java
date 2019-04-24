@@ -90,10 +90,10 @@ public class AccountPage extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 User currentUser = dataSnapshot.getValue(User.class);
-                TextView ID_Data = findViewById(R.id.ID_Data);
+                TextView ID_Data = findViewById(R.id.IDInfo);
                 String UserID =  currentUser.getStudentID();
                 ID_Data.setText(UserID);
-                TextView NameData = findViewById(R.id.Name_Data);
+                TextView NameData = findViewById(R.id.NameInfo);
                 String Name =  currentUser.getName();
                 NameData.setText(Name);
                 TextView Course_Data = findViewById(R.id.Course_Data);
